@@ -1,0 +1,68 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+A <- read.table( '3.csv',header=T,sep=',')
+B <- read.table( '1.csv',header=T,sep=',')
+C <- read.table( '2.csv',header=T,sep=',')
+D <- read.table( '4.csv',header=T,sep=',')
+A <- rbind(A,B,C,D)
+A<-A[!(A$ram==512 | A$internal=="16GB"),]
+A$company <- sub("([A-Za-z]+).*", "\\1", A$name )
+A <- A[complete.cases(A), ]
+summary(A)
+```
+
+```{r}
+
+#A$rating <- (A$rating*10)
+A <- A[ , -which(names(A) %in% c("name"))]
+A
+#plot(A$rating)
+```
+
+```{r}
+set.seed(101)
+sample <- sample.int(n = nrow(A), size = floor(.8*nrow(A)), replace = F)
+train <- A[sample, ]
+test  <- A[-sample, ]
+```
+
+```{r}
+model <- lm(rating ~ battery+internal+ram+price+company,data=train) 
+predicted <- predict(model,newdata=test) 
+print("RMSE")
+rmse <- function(y, f) { sqrt(mean( (y-f)^2 )) }
+rmse(test$rating,predicted)
+
+```
+
+```{r}
+x <- seq(1,length(predicted),1)
+#library("ggplot2")
+plot(x,test$rating,
+main="Predicted and Actual",
+ylab="Rating",
+xlab="Index",
+type="l",
+col="blue")
+lines(x,predicted, col="red")
+legend("topleft",
+c("Predicted","Actual"),
+fill=c("blue","red")
+)
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+

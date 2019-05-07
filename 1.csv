@@ -1,0 +1,73 @@
+battery,internal,name,price,ram,rating
+2630,16,"Nokia 3 (Tempered Blue, 16 GB)",10000,2,3.9
+2600,16,"HTC One E9S (Roast Chestnut, 16 GB)",10000,2,3.5
+3360,16,"Vivo Y71i (Gold, 16 GB)",10000,2,4.2
+2970,32,"Nokia 5.1 (Black&Blue, 32 GB)",10000,3,4.1
+2400,16,"Gionee F103 Pro (Gold, 16 GB)",10000,3,3.9
+2420,16,"OPPO Neo 7 4G (Black, 16 GB)",10000,1,3.8
+2990,16,"Nokia 3.1 (Black, 16 GB)",10000,2,4.1
+2800,32,"HTC Desire 828 Dual SIM (Dark Grey, 32 GB)",10000,3,3.8
+2280,16,"Micromax Canvas Knight 2 (Black & Champagne, 16 GB)",10000,2,3.7
+2630,16,"OPPO A37f (Grey, 16 GB)",10000,2,4.2
+2600,16,"Samsung Galaxy J2 2018 (Black, 16 GB)",10000,2,4.2
+2600,16,"Samsung Galaxy J2 Pro (Gold, 16 GB)",10012,2,4.1
+4000,16,"Moto E5 (Grey/Flash Gray, 16 GB)",10049,2,4.3
+4000,32,"InFocus Vision 3 (Midnight Black, 32 GB)",10077,3,3.9
+3750,32,"Tecno Camon i 2 (Blue, 32 GB)",10170,3,4.2
+3000,32,"Lava Z91 (Blue, 32 GB)",10199,3,3.8
+3000,16,"Samsung Galaxy J7 (White, 16 GB)",10199,1.5,4.3
+2630,16,"Nokia 3 (Silver White, 16 GB)",10200,2,3.9
+4030,32,"Vivo Y91 (Ocean Blue, 32 GB)",10200,2,4.4
+4030,32,"Vivo Y91 (Starry Black, 32 GB)",10200,2,4.4
+3000,16,"Samsung Galaxy J4 (Gold, 16 GB)",10212,2,4.3
+4000,32,"Lenovo K8 (Venom Black, 32 GB)",10225,3,4.1
+4100,32,Asus Zenfone 3 Max,10240,3,3.9
+3000,16,"OPPO A71 (Gold, 16 GB)",10290,3,4.2
+3000,32,"Samsung Galaxy J6 (Blue, 32 GB)",10490,3,4.4
+3000,32,"Samsung Galaxy J6 (Gold, 32 GB)",10490,3,4.4
+3000,32,"Samsung Galaxy J6 (Black, 32 GB)",10490,3,4.4
+4900,32,"Lenovo Vibe P1 Turbo/Vibe P1 (Grey, 32 GB)",10490,3,3.7
+4550,64,"Gionee A1 Plus (Black, 64 GB)",10490,4,4.1
+3300,32,"Samsung Galaxy J4 Plus (Black, 32 GB)",10499,2,4.3
+3000,16,"Honor Holly 3 (Gold, 16 GB)",10499,2,4
+3260,32,"Vivo Y81 (Black, 32 GB)",10499,3,4.4
+4010,32,"Coolpad Note 5 (Space Grey, 32 GB)",10499,4,3.9
+5000,64,"Asus Zenfone Max Pro M1 (Grey, 64 GB)",10499,4,4.3
+5000,32,"Moto E5 Plus (Black, 32 GB)",10499,3,4.2
+5000,32,"Moto E5 Plus (Fine Gold, 32 GB)",10499,3,4.2
+4000,64,"Asus ZenFone Max M2 (Blue, 64 GB)",10499,4,4.3
+3000,16,"Nokia 5 (Copper, 16 GB)",10499,2,4
+4000,64,"Asus ZenFone Max M2 (Black, 64 GB)",10499,4,4.3
+3750,32,"Tecno Camon I Air 2+ (Aqua Blue, 32 GB)",10499,2,4.1
+5000,64,"Asus Zenfone Max Pro M1 (Blue, 64 GB)",10499,4,4.3
+2990,16,"Nokia 3.1 (Blue & copper/Blue, 16 GB)",10499,2,4.1
+5000,64,"Asus Zenfone Max Pro M1 (Black, 64 GB)",10499,4,4.3
+3000,16,"Nokia 5 (Silver, 16 GB)",10499,3,4.1
+2400,16,"Gionee F103 (Black, 16 GB)",10499,2,4.1
+5000,32,"Panasonic Eluga Ray 700 (Marine Blue, 32 GB)",10499,3,3.6
+2110,8,"Asus Zenfone 5 A501CG (Red, 8 GB)",10499,2,4.2
+4100,32,"Meizu M3 Note (Grey, 32 GB)",10499,3,3.6
+3500,32,"Realme U1 (Fiery Gold, 32 GB)",10748,3,4.4
+2800,16,"Intex Staari 9 (Champagne Gold, 16 GB)",10750,2,3.6
+4000,32,"Lenovo K8 Note (Venom Black, 32 GB)",10789,3,4.1
+3500,32,"Tecno Camon i4 (Midnight Black, 32 GB)",10790,3,3.3
+2990,32,"Nokia 3.1 (Blue/Copper, 32 GB)",10790,3,4
+4000,32,"Lenovo K6 Note (Golden, 32 GB)",10799,4,4
+3500,32,"Tecno Camon i4 (Champagne Gold, 32 GB)",10799,3,3.3
+2750,32,"Lava Z90 (Gold, 32 GB)",10799,3,3.8
+2500,16,"Panasonic Eluga Prim (Gold, 16 GB)",10800,3,3.8
+4900,32,"Lenovo Vibe P1 Turbo (Silver, 32 GB)",10800,3,3.7
+2800,16,"LG K10 2017 (Gold & Black, 16 GB)",10845,2,4
+4000,64,"Lenovo K8 Note (Fine Gold, 64 GB)",10850,4,4.1
+3000,64,"Honor 7C (Blue, 64 GB)",10850,4,4.2
+3000,64,"Honor 7C (Black, 64 GB)",10869,4,4.2
+3000,32,"Samsung Galaxy J7 Nxt (Gold, 32 GB)",10900,3,4.3
+3180,16,"OPPO A83 (Champagne, 16 GB)",10900,2,4.4
+2630,16,"OPPO A37f (Gold, 16 GB)",10900,2,4.2
+3000,16,"Samsung Galaxy J4 (Black, 16 GB)",10920,2,4.3
+4000,32,"InFocus Turbo 5s (Platinum Gold, 32 GB)",10958,3,3.9
+4000,32,"Redmi Note 5 (Black, 32 GB)",10960,3,4.4
+3500,32,"Realme U1 (Brave Blue, 32 GB)",10970,3,4.4
+3300,64,"Samsung Galaxy On Nxt (Black, 64 GB)",10990,3,4.3
+3260,32,"Vivo Y81 (Gold, 32 GB)",10990,3,4.4
+3500,32,"Lenovo Z2 Plus (Black, 32 GB)",10990,3,3.9
